@@ -1,18 +1,6 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #16181d;
   min-height: 10vh;
@@ -24,12 +12,21 @@
   color: white;
 }
 
+.app-logo{
+  font-family: 'VT323', monospace;
+  font-size: 32px;
+  letter-spacing: 2px; 
+}
+
+.App-header ul{
+  padding: 0;
+}
 .App-header li{
   list-style-type: none;
 }
 
 .App-body {
-  background-color: #282c34;
+  background-color: white;
   min-height: 90vh;
   display: flex;
   flex-direction: column;

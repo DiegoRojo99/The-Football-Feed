@@ -59,7 +59,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <ul>
-            <li>The Football Feed</li>
+            <li className='app-logo'>The Football Feed</li>
           </ul>
         </header>
         <body className='App-body'>
@@ -74,7 +74,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <ul>
-            <li>The Football Feed</li>
+            <li className='app-logo'>The Football Feed</li>
           </ul>
         </header>
         <body className='App-body'>
@@ -88,7 +88,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <ul>
-          <li>The Football Feed</li>
+          <li className='app-logo'>The Football Feed</li>
         </ul>
       </header>
       <body className='App-body'>
