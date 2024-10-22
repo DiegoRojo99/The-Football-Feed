@@ -20,10 +20,6 @@ Welcome to **The Football Feed**! This web application allows users to view high
 - Select a football league from the dropdown menu to view the latest highlights.
 - Click on the highlight video to watch it directly in the player.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - [RapidAPI](https://rapidapi.com/) for providing the football highlights API.
@@ -31,4 +27,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Link to the Page
 
-[Visit The Football Feed](https://the-football-feed.netlify.app/) (Replace this URL with your actual deployment link)
+[Visit The Football Feed](https://the-football-feed.netlify.app/)
