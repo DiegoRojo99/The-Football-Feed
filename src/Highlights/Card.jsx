@@ -1,12 +1,18 @@
 import './Highlights.css';
 
 export default function HighlightsCard({highlight}){
+  console.log("H: ", highlight)
   return (
     <div className="highlight-item">
       <div className='highlight-game-info'>
         <p className='game-info-title'>{highlight.title}</p>
       </div>
-      <div className="highlight-video" dangerouslySetInnerHTML={{ __html: extractIframe(highlight.embed) }} />  
+      {
+        highlight.videos?.length > 1 ?
+          <div className="long-highlight-video" dangerouslySetInnerHTML={{ __html: extractIframe(highlight.embed) }} />   
+        :
+          <div className="highlight-video" dangerouslySetInnerHTML={{ __html: extractIframe(highlight.embed) }} /> 
+      }
     </div>
   )
 }
