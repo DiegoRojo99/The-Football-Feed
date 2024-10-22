@@ -4,7 +4,7 @@ import HighlightsCard from './Card';
 import {Select, InputLabel, MenuItem, FormControl} from '@mui/material';
 
 function HighlightPage({ data }) {
-  const competitions = Object.keys(data);
+  const competitions = Object.keys(data).sort((a, b) => a.localeCompare(b));
   const [selectedCompetition, setSelectedCompetition] = useState(competitions[0]);
 
   const handleChange = (event) => {
