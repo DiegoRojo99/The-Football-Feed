@@ -30,7 +30,7 @@ function App() {
           port: null,
           path: '/',
           headers: {
-            'x-rapidapi-key': process.env.RAPIDAPI_KEY,
+            'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
             'x-rapidapi-host': 'free-football-soccer-videos.p.rapidapi.com'
           }
         };
